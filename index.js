@@ -9,7 +9,7 @@ app.use(cors());
 
 /* MAILERSEND CONFIGURATION */
 const mailerSend = new MailerSend({
-  apiKey: process.env.MAILERSEND, // process.env.API_KEY si vous hébergez sur GitHub
+  apiKey: process.env.API_KEY, // process.env.API_KEY si vous hébergez sur GitHub
 });
 
 const sentFrom = new Sender(
